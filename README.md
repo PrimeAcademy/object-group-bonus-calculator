@@ -28,4 +28,4 @@ and should receive an additional 5%.
 
 You may abstract out the STI calculation into a second function if you like, but this is not mandatory.
 
-Next, write a second function that will take the `employees` array, iterate over it, send each inner array to your first function, and `console.log` the results. 
+Finally, iterate over the `employees` array and input each index of the array to your first function, and `console.log` the results of each iteration. 
