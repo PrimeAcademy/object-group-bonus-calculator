@@ -40,3 +40,4 @@ and should receive an additional 5%.
 - No bonus can be above 13% total.
 
 You may abstract out the STI calculation into a second function if you like, but this is not mandatory.
+# prime_group_js_01
