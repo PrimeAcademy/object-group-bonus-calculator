@@ -35,7 +35,7 @@ Finally, iterate over the `employees` array and
 - If they have an employee number with four digits, this means they have been with the company for longer than 15 years, 
 and should receive an additional 5%.
 - However, if their annual income is greater than $65,000, they should have their bonus adjusted down 1%. 
-- No bonus can be above 13% total.
+- No bonus can be above 13% or below 0% total.
 
 NOTE: You may abstract out this bonus calculation into a second function if you like, but this is not mandatory.
 
