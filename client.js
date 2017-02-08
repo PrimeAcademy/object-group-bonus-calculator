@@ -7,6 +7,6 @@ var mayella = { name: "Mayella", employeeNumber: "89068", annualSalary: "35000",
 
 var employees = [ atticus, jem, boo, scout, robert, mayella ];
 
-// YOU SHOULD NEED TO CHANGE ANYTHING ABOVE THIS POINT
+// YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 console.log(employees);
