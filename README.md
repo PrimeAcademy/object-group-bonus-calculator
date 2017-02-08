@@ -11,7 +11,7 @@ Each employee array currently is configured in this way:
 
 * The name property holds the employees name.
 * The employeeNumber property has their employee number.
-* The annualSalary property contains their annual salary.
+* The annualSalary property contains their base annual salary.
 * The reviewRating property contains their review rating.
 
 ## Logic
@@ -38,3 +38,9 @@ and should receive an additional 5%.
 - No bonus can be above 13% or below 0% total.
 
 NOTE: You may abstract out this bonus calculation into a second function if you like, but this is not mandatory.
+
+## Hard Mode
+Put the output on the DOM (visually on the page), using raw javascript and not jQuery.
+
+## Pro Mode
+Style that output, make it visually appealing
