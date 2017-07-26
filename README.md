@@ -40,7 +40,7 @@ and should receive an additional 5%.
 NOTE: You may abstract out this bonus calculation into a second function if you like, but this is not mandatory.
 
 ## Hard Mode
-Put the output on the DOM (visually on the page), using raw javascript and not jQuery.
+Put the output on the DOM (visually on the page).
 
 ## Pro Mode
 Make the app run only after the user clicks on a button on the page. Then style the output, make it visually appealing.
