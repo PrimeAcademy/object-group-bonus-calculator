@@ -1,3 +1,7 @@
+# Group setup
+
+![intro](quads_week1_example.png)
+
 # Bonus Calculator App
 
 You are going to write a single JavaScript file to automatically calculate employee bonus for a company.
