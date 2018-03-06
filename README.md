@@ -21,12 +21,14 @@ Each **employee object** currently is configured in this way:
 * The `reviewRating` property contains their review rating.
 
 ## Logic
-Write a function that takes in one **employee object** (as an argument to the function), and returns a **new object**:
+You will be taking these object literals and turning them into **Employee**'s. Write a function that takes in one **employee** (as an argument to the function), and returns a new **Employee**:
 
 * The `name` property should contain the employee's name.
 * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
 * The `totalCompensation` property should be the adjusted annual compensation (base annual + bonus)
 * The `totalBonus` should be the employee's total bonus rounded to the nearest dollar.
+
+> NOTE: You will need to create an **Employee** class.
 
 Finally, iterate over the `employees` array and
 
