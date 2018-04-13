@@ -22,7 +22,7 @@ Each **employee** currently is configured in this way:
 
 ## The Employee Class
 
-Holding the data in an array isn't as useful or self-descriptive as having an employee class. The following **employee** Class is in *client.js*:
+The following **employee** Class is in *client.js* as the output format for your function:
 
 ```
 class Employee{
