@@ -6,6 +6,15 @@ const mayella = { name: 'Mayella', employeeNumber: '89068', annualSalary: '35000
 
 const employees = [ atticus, jem, scout, robert, mayella ];
 
+class Employee{
+  constructor( name, employeeNumber, annualSalary, reviewRating ){
+    this.name = name;
+    this.employeeNumber = employeeNumber;
+    this.annualSalary = annualSalary;
+    this.reviewRating = reviewRating;
+  } // end constructor
+} // end Employee class
+
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
-console.log(employees);
+console.log( employees );

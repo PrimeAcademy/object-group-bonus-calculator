@@ -13,24 +13,37 @@ You are going to write a single JavaScript file to automatically calculate emplo
 The company is providing you with a few sample objects that serve as examples of how their data is currently being stored. Each object contains employee information. Each of these objects are stored in a main array named `employees`.
 
 ### Employee Array
-Each **employee object** currently is configured in this way:
+Each **employee** currently is configured in this way:
 
 * The `name` property holds the employees name.
 * The `employeeNumber` property has their employee number.
 * The `annualSalary` property contains their base annual salary.
 * The `reviewRating` property contains their review rating.
 
+## The Employee Class
+
+Holding the data in an array isn't as useful or self-descriptive as having an employee class. The following **employee** Class is in *client.js*:
+
+```
+class Employee{
+  constructor( name, bonusPercentage, totalCompensation, totalBonus ){
+    this.name = name;
+    this.bonusPercentage = bonusPercentage;
+    this.totalCompensation = totalCompensation;
+    this.totalBonus = totalBonus;
+  } // end constructor
+} // end Employee class
+```
+
 ## Logic
-You will be taking these object literals and turning them into **Employee**'s. Write a function that takes in one **employee** (as an argument to the function), and returns a new **Employee**:
+You will be taking the object literals in the employees array and turning them into **Employee**'s. Write a function that takes in one **employee** (as an argument to the function), and returns a new **Employee**:
 
 * The `name` property should contain the employee's name.
 * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
 * The `totalCompensation` property should be the adjusted annual compensation (base annual + bonus)
 * The `totalBonus` should be the employee's total bonus rounded to the nearest dollar.
 
-> NOTE: You will need to create an **Employee** class.
-
-Finally, iterate over the `employees` array and
+Finally, iterate over the `employees` array and do the following:
 
 * use each `employee` object as the input to your first function
 * `console.log` the results of each iteration.
@@ -47,8 +60,7 @@ and should receive an additional 5%.
 
 NOTE: You may abstract out this bonus calculation into a second function if you like, but this is not mandatory.
 
-## Hard Mode
-Put the output on the DOM (visually on the page).
-
-## Pro Mode
-Make the app run only after the user clicks on a button on the page. Then style the output, make it visually appealing.
+## Stretch Goals
+- Put the output on the DOM (visually on the page).
+- Make the app run only after the user clicks on a button on the page
+- Then style the output, making it visually appealing.
