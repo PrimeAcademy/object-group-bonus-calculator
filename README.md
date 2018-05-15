@@ -26,11 +26,11 @@ The following **employee** Class is in *client.js* as the output format for your
 
 ```
 class Employee{
-  constructor( name, bonusPercentage, totalCompensation, totalBonus ){
+  constructor( name, employeeNumber, annualSalary, reviewRating ){
     this.name = name;
-    this.bonusPercentage = bonusPercentage;
-    this.totalCompensation = totalCompensation;
-    this.totalBonus = totalBonus;
+    this.employeeNumber = employeeNumber;
+    this.annualSalary = annualSalary;
+    this.reviewRating = reviewRating;
   } // end constructor
 } // end Employee class
 ```
