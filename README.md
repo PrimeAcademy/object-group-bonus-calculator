@@ -10,7 +10,7 @@ You are going to write a single JavaScript file to automatically calculate emplo
 
 ## Data Structure
 
-The company is providing you with a few sample objects that serve as examples of how their data is currently being stored. Each object contains employee information. Each of these objects are stored in a main array named `employees`.
+The company is providing you with a few samples of employee data of how their data is currently being stored. Each are stored in a global array named `employees`.
 
 ### Employee Array
 Each **employee** currently is configured in this way:
