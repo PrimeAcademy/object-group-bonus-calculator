@@ -20,23 +20,8 @@ Each **employee** currently is configured in this way:
 * The `annualSalary` property contains their base annual salary.
 * The `reviewRating` property contains their review rating.
 
-## The Employee Class
-
-The following **employee** Class is in *client.js* as the output format for your function:
-
-```
-class Employee{
-  constructor( name, employeeNumber, annualSalary, reviewRating ){
-    this.name = name;
-    this.employeeNumber = employeeNumber;
-    this.annualSalary = annualSalary;
-    this.reviewRating = reviewRating;
-  } // end constructor
-} // end Employee class
-```
-
 ## Logic
-You will be taking the object literals in the employees array and turning them into **Employee**'s. Write a function that takes in one **employee** (as an argument to the function), and returns a new **Employee**:
+You will be taking the object literals in the employees array and turning them into **Employee**'s. Write a function that takes in one **employee** (as an argument to the function), and returns a new **object** with the following properties:
 
 * The `name` property should contain the employee's name.
 * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
