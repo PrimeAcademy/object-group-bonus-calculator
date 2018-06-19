@@ -13,7 +13,7 @@ You are going to write a single JavaScript file to automatically calculate emplo
 The company is providing you with a few samples of employee data of how their data is currently being stored. Each are stored in a global array named `employees`.
 
 ### Employee Array
-Each **employee** currently is configured in this way:
+Each **Employee** currently is configured in this way:
 
 * The `name` property holds the employees name.
 * The `employeeNumber` property has their employee number.
@@ -24,13 +24,12 @@ Each **employee** currently is configured in this way:
 
 Loop over the `employees` array and do the following:
 
-* use each `employee` object as the input to the function described below.
+* use each `Employee` object as the input to the function described below.
 * `console.log` the results of each iteration.
 
 ## Function Logic
-You will be taking the object literals in the `employees` array and turning them into **Employee**'s. 
 
-Write a declared function (NOT a method on the Employee class) that takes in one **employee** object (as an argument to the function), and returns a new **object** with the following properties:
+Write a declared function (NOT a method on the Employee class) that takes in one **Employee** object (as an argument to the function), and returns a new **object** with the following properties:
 
 * The `name` property should contain the employee's name.
 * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
