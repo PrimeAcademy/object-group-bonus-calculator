@@ -2,7 +2,7 @@
 
 First, let's take a look at starting the project off with your group members in an effective manner:
 
-![intro](quads_week1_example.png)
+![intro](quads_week1_updated.png)
 
 # Bonus Calculator App
 
