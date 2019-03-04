@@ -24,7 +24,7 @@ Each **Employee** currently is configured in this way:
 
 Loop over the `employees` array and do the following:
 
-* use each `Employee` object as the input to the function described below.
+* use each employee object as the input to the function described below.
 * `console.log` the results of each iteration.
 
 ## Function Logic
