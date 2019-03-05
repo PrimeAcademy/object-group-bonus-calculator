@@ -29,7 +29,7 @@ Loop over the `employees` array and do the following:
 
 ## Function Logic
 
-Write a declared function (NOT a method on the Employee class) that takes in one **Employee** object (as an argument to the function), and returns a new **object** with the following properties:
+Write a declared function that takes in one **Employee** object (as an argument to the function), and returns a new **object** with the following properties:
 
 * The `name` property should contain the employee's name.
 * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
