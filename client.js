@@ -40,6 +40,8 @@ const employees = [
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
+$(document).ready(calcReady);
+
 console.log(employees);
 
 function bonusCalculator(employee) {
@@ -89,12 +91,16 @@ function bonusCalculator(employee) {
 }//end bonusCalculator
 
 // loops through employees
-for (let i = 0; i < employees.length; i++) {
-  console.log(bonusCalculator(employees[i]));
-}
+
 
 // console.log(bonusCalculator(employees[0]));
 // console.log(bonusCalculator(employees[2]));
 // console.log(bonusCalculator(employees[3]));
 
 
+function calcReady() {
+  $('#calcButton').on('click', bonusCalculator);
+  for (let i = 0; i < employees.length; i++) {
+    console.log(bonusCalculator(employees[i]));
+  }
+}
