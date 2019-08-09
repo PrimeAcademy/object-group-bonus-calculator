@@ -1,10 +1,17 @@
+# Bonus Calculator App
+
+## Objectives
+
+- Practice Read, Write, Speak, Teach skills
+- Solidify JavaScript knowledge
+- Translate business needs to code
+- Practice Group Work
+
 # Group setup
 
 First, let's take a look at starting the project off with your group members in an effective manner:
 
 ![intro](quads_week1_updated.png)
-
-# Bonus Calculator App
 
 You are going to write a single JavaScript file to automatically calculate employee bonus for a company.
 
