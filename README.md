@@ -11,7 +11,7 @@
 
 First, let's take a look at starting the project off with your group members in an effective manner:
 
-![intro](quads_week1_updated.png)
+![intro](quads_week1_updated_2020.png)
 
 You are going to write a single JavaScript file to automatically calculate employee bonus for a company.
 
