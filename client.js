@@ -63,7 +63,7 @@ function bonusCalc(employees) {
         newArray.push(eachCalculation(employees[i]));
 
     } //end For loop
-    return newArray;
+    return;
 }
 
 function eachCalculation(employee) {
@@ -103,9 +103,10 @@ function eachCalculation(employee) {
 }
 $(document).ready(calcButton);
 
+
 function calcButton() {
     $("#calculatorButton").on('click', bonusCalc(employees));
-    let el = ("#employeeList");
+    let el = $("#employeeList");
     for (i = 0; i < newArray; i++) {
         el.append("<li> " + newArray[i] + " </li>");
     }
