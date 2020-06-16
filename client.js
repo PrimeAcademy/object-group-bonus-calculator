@@ -42,6 +42,7 @@ const employees = [{
 console.log(employees);
 
 
+
 //Plan
 /* Loop over the `employees`
 array and do the following:
@@ -106,8 +107,13 @@ $(document).ready(calcButton);
 
 function calcButton() {
     $("#calculatorButton").on('click', bonusCalc(employees));
+<<<<<<< HEAD
     let el = $("#employeeList");
     for (i = 0; i < newArray; i++) {
+=======
+    let el = $( "#employeeList" );
+    for (i = 0; i < newArray.length; i++) {
+>>>>>>> 82ebeb208a68dd030eeab84f1fa0063d4cbaf473
         el.append("<li> " + newArray[i] + " </li>");
     }
 } //end calcButton
