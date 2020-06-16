@@ -107,14 +107,13 @@ $(document).ready(calcButton);
 
 function calcButton() {
     $("#calculatorButton").on('click', bonusCalc(employees));
-<<<<<<< HEAD
+    $( "#employeeList").val( '' );	    
     let el = $("#employeeList");
-    for (i = 0; i < newArray; i++) {
-=======
-    let el = $( "#employeeList" );
-    for (i = 0; i < newArray.length; i++) {
->>>>>>> 82ebeb208a68dd030eeab84f1fa0063d4cbaf473
-        el.append("<li> " + newArray[i] + " </li>");
+    for (let i = 0; i < newArray.length; i++) {
+        el.append("<li>Employee Name: " + newArray[i].name + 
+        ' <br> Bonus Percentage: ' + newArray[i].bonusPercentage + 
+        '<br> Total Compensation: \$ ' + newArray[i].totalCompensation + 
+        ' <br> Total Bonus: \$ ' + newArray[i].totalBonus + " </li>");
     }
 } //end calcButton
 
