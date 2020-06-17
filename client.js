@@ -79,7 +79,7 @@ function eachCalculation(employee) {
         bonusObject.bonusPercentage = 10;
     }
 
-    if (employee.employeeNumber.length == 4) {
+    if (employee.name.length == 4) {
         bonusObject.bonusPercentage += 5;
     }
 
