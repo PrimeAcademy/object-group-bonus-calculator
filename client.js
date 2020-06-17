@@ -101,7 +101,7 @@ function eachCalculation(employee) {
 
     return bonusObject;
 
-}//end function
+} //end eachCalculation
 //begin display
 $(document).ready(calcButton);
 function calcButton() {
@@ -111,12 +111,12 @@ function calcButtonFunction(){
     bonusCalc(employees);
     let el = $( "#employeeList" );
     for (let i = 0; i < newArray.length; i++) {
-        el.append("<li> Emplouyee Name: " + newArray[i].name + '<br> Bonus Percentage:' +
+        el.append("<li> Employee Name: " + newArray[i].name + '<br> Bonus Percentage:' +
         newArray[i].bonusPercentage + '<br> Total Compensation: ' + newArray[i].totalCompensation +
         '<br> Total Bonus:' + newArray[i].totalBonus + " </li>");
     }
     return;
-}
+} //end calcButtonFunction
 
 
 
