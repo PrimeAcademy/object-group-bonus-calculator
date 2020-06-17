@@ -101,22 +101,22 @@ function eachCalculation(employee) {
 
     return bonusObject;
 
+}//end function
+//begin display
+$(document).ready(calcButton);
+function calcButton() {
+    $("#calculatorButton").on('click', calcButtonFunction);
 }
-$( document ).ready(readyNow);
-
-
-function readyNow() {
-    $( '#calculatorButton' ).on( 'click', bonusCalc(employees));
-    displayAdded();
-}
-
-function displayAdded(){	    
-    let el = $('#employeeList');
-    $( '#employeeList').val( '' );
+function calcButtonFunction(){
+    bonusCalc(employees);
+    let el = $( "#employeeList" );
     for (let i = 0; i < newArray.length; i++) {
-        el.append('<li>Employee Name: ' + newArray[i].name + ' <br> Bonus Percentage: ' + newArray[i].bonusPercentage + '<br> Total Compensation: \$ ' + newArray[i].totalCompensation + ' <br> Total Bonus: \$ ' + newArray[i].totalBonus + ' </li>');
+        el.append("<li> Emplouyee Name: " + newArray[i].name + '<br> Bonus Percentage:' +
+        newArray[i].bonusPercentage + '<br> Total Compensation: ' + newArray[i].totalCompensation +
+        '<br> Total Bonus:' + newArray[i].totalBonus + " </li>");
     }
-} //end calcButton
+    return;
+}
 
 
 
