@@ -1,5 +1,7 @@
 # Bonus Calculator App
 
+You are going to write a single JavaScript file to automatically calculate employee bonus for a company.
+
 ## Objectives
 
 - Practice Read, Write, Speak, Teach skills
@@ -7,13 +9,20 @@
 - Translate business needs to code
 - Practice Group Work
 
-# Group setup
+## Pair Programming
 
-First, let's take a look at starting the project off with your group members in an effective manner:
+We'll be pair/trio programming for our first group coding activity. 
 
-![intro](quads_week1_updated_2020.png)
+Video: https://www.youtube.com/watch?v=vgkahOzFH2Q
 
-You are going to write a single JavaScript file to automatically calculate employee bonus for a company.
+> Note: This is a real world thing, not just a thing kids do or that we use in the classroom. Many people use pair programming on the job.
+
+For **remote work**, use [VSCode Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) to collaborate on code in pairs.
+
+Key takeaways:
+- Use 1 computer for coding. First driver forks assignment.  Others can fork from the 1st driver when done so everyone gets the code.
+- Communicate - It should not be quiet in here.
+- Switch roles - one person should not drive for the whole assignment.
 
 ## Data Structure
 
