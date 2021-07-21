@@ -33,8 +33,7 @@ const employees = [
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
-// Take small steps! Don't write a for loop and two functions that do all of the calculations right away.
-// This problem is massive! Break the problem down. Use the debugger.
+// This problem is massive! Break the problem down, take small steps, and test as you go.
 // What is the fewest lines of code I can write and test to get just a little closer?
 
 // This is not a race. Everyone on your team should understand what is happening.
