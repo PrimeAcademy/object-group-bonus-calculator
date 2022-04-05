@@ -31,12 +31,74 @@ const employees = [
   }
 ];
 
-// YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
-// This problem is massive! Break the problem down, take small steps, and test as you go.
-// What is the fewest lines of code I can write and test to get just a little closer?
+// INPUT: employee object
+// OUTPUT: "processed" employee object:
+// {
+//   name:
+//   bonusPercentage:
+//   totalCompensation:
+//   totalBonus:
+// }
+function processEmployee(employee) {
 
-// This is not a race. Everyone on your team should understand what is happening.
-// Ask questions when you don't.
+  let bonusPercentage = calculateBonus(employee);
 
-console.log( employees );
+  let totalBonus = Math.round(bonusPercentage * Number(employee.annualSalary));
+
+  let totalCompensation = totalBonus + Number(employee.annualSalary);
+
+  let processedEmployee = {
+    name: employee.name,
+    bonusPercentage: bonusPercentage,
+    totalBonus: totalBonus,
+    totalCompensation: totalCompensation
+  }
+
+  return processedEmployee;
+}
+
+function calculateBonus(employee) {
+  let bonusPercentage;
+
+  // BASIC bonusPercentage logic:
+  if (employee.reviewRating <= 2) {
+    //  <=2 -- NO BONUS
+    bonusPercentage = 0;
+  } else if (employee.reviewRating === 3) {
+    //  ===3 - 4% BONUS
+    bonusPercentage = .04;
+  } else if (employee.reviewRating === 4) {
+    //  ===4 - 6%
+    bonusPercentage = .06;
+  } else if (employee.reviewRating === 5) {
+    //  ===5 - 10%
+    bonusPercentage = .1;
+  }
+
+  // EXTRA bonusPercentage logic:
+  if (employee.employeeNumber.length === 4) {
+    // IF employeeNumber is 4 digits
+    // +5% to BONUS
+    bonusPercentage += .05;
+  }
+  if (employee.annualSalary > 65000) {
+    // IF income > $65,000
+    // -1% to BONUS
+    bonusPercentage -= .01;
+  }
+  // 🔥🔥🔥 NO BONUS CAN BE > 13% or < 0% 🔥🔥🔥
+  if (bonusPercentage > .13) {
+    bonusPercentage = .13;
+  } else if (bonusPercentage < 0) {
+    bonusPercentage = 0;
+  }
+
+  return bonusPercentage;
+}
+
+
+// Let's find out if it works:
+for (let employee of employees) {
+  console.log(processEmployee(employee));
+}
