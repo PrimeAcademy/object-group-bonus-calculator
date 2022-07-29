@@ -62,7 +62,7 @@ and should receive an additional 5%.
 - However, if their annual income is greater than $65,000, they should have their bonus adjusted down 1%.
 - No bonus can be above 13% or below 0% total.
 
-NOTE: You may abstract out this bonus calculation into a second function if you like, but this is not mandatory.
+_NOTE: You may abstract out this bonus calculation into a second function if you like, but this is not mandatory._
 
 ## Stretch Goals
 - Put the output on the DOM (visually on the page).
