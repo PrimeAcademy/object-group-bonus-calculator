@@ -46,20 +46,10 @@ console.log('array of employee data: ',  employees );
 
 
 
-// Loop over the employees array
-/*
-for(let i; i < ??; i++) {
-  // Call the function below, passing a single employee object as the parameter
-  // You will get back (see the return in the function) a new object. Log that new object to the console.
-}
-*/
-
-
-
-// this function will calculate 1 employee's bonus!
-function calculateIndividualEmployeeBonus( employee ) {
-  
-
+// Use this function will calculate 1 employee's bonus!
+//
+function calculateIndividualEmployeeBonus( employee ) {  
+  // your logic here
   
   
   // return new object with bonus results
