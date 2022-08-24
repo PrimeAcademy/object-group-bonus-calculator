@@ -46,7 +46,7 @@ console.log('array of employee data: ',  employees );
 
 
 
-// Use this function will calculate 1 employee's bonus!
+// This function will calculate 1 employee's bonus!
 //
 function calculateIndividualEmployeeBonus( employee ) {  
   // your logic here
