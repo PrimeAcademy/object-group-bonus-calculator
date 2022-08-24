@@ -1,3 +1,4 @@
+// array of employee objects
 const employees = [
   {
     name: 'Atticus',
@@ -31,6 +32,9 @@ const employees = [
   }
 ];
 
+console.log('array of employee data: ',  employees );
+
+
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 // This problem is massive! Break the problem down, take small steps, and test as you go.
@@ -39,4 +43,15 @@ const employees = [
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
-console.log( employees );
+
+
+
+// This function will calculate 1 employee's bonus!
+//
+function calculateIndividualEmployeeBonus( employee ) {  
+  // your logic here
+  
+  
+  // return new object with bonus results
+
+}

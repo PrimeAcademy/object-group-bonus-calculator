@@ -24,35 +24,49 @@ Key takeaways:
 - Communicate - It should not be quiet in here.
 - Switch roles - one person should not drive for the whole assignment.
 
+---
+
+## Where to Start
+
+This project can seem huge. It is an exercise in figuring out where to start and what SMALL STEPS to take next.
+
+It's often a good idea to "make it work for one thing" before making it work for all the things. In this case, we could work on getting the bonus calculation function working for just one employee before trying to call it multiple times inside of a loop. 
+
+Consider starting by getting this function to work only for Atticus.
+
+
 ## Data Structure
 
 The company is providing you with a few samples of employee data of how their data is currently being stored. Each are stored in a global array named `employees`.
 
-### Employee Array
+### Employee Array 
 Each **Employee** currently is configured in this way:
 
-* The `name` property holds the employees name.
+* The `name` property holds the employee's name.
 * The `employeeNumber` property has their employee number.
 * The `annualSalary` property contains their base annual salary.
 * The `reviewRating` property contains their review rating.
 
-## Processing Employee Bonuses
+
+## A Loop to Process Bonuses
 
 Loop over the `employees` array and do the following:
 
 * use each employee object as the input to the function described below.
 * `console.log` the results of each iteration.
+    - The `log` should be in the loop, not the function.
 
-## Function Logic
+## The Bonus Calculation Function
 
-Write a declared function that takes in one **Employee** object (as an argument to the function), and returns a new **object** with the following properties:
+Write a declared function that takes in one **Employee** object (as an argument to the function), and `return` a new **object** with the following properties. _Note these properties are different than the ones you start with!_
 
 * The `name` property should contain the employee's name.
 * The `bonusPercentage` property should contain the bonus percentage the employee is to receive. See section below for calculation instructions.
 * The `totalCompensation` property should be the adjusted annual compensation (base annual + bonus)
 * The `totalBonus` should be the employee's total bonus rounded to the nearest dollar.
 
-### Individual Bonus calculation
+### Individual Bonus Rules
+
 - Those who have a rating of a 2 or below should not receive a bonus.
 - Those who have a rating of a 3 should receive a base bonus of 4% of their base annual income.
 - Those who have a rating of a 4 should receive a base bonus of 6% of their base annual income.
@@ -62,7 +76,7 @@ and should receive an additional 5%.
 - However, if their annual income is greater than $65,000, they should have their bonus adjusted down 1%.
 - No bonus can be above 13% or below 0% total.
 
-NOTE: You may abstract out this bonus calculation into a second function if you like, but this is not mandatory.
+---
 
 ## Stretch Goals
 - Put the output on the DOM (visually on the page).
