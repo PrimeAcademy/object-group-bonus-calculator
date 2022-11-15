@@ -20,7 +20,7 @@ Video: https://www.youtube.com/watch?v=vgkahOzFH2Q
 For **remote work**, use [VSCode Live Share](https://docs.microsoft.com/en-us/visualstudio/liveshare/use/vscode) to collaborate on code in pairs.
 
 Key takeaways:
-- Use 1 computer for coding. First driver forks assignment.  Others can fork from the 1st driver when done so everyone gets the code.
+- Use 1 computer for coding. First driver uses the template.  Others can fork from the 1st driver when done so everyone gets the code.
 - Communicate - It should not be quiet in here.
 - Switch roles - one person should not drive for the whole assignment.
 
