@@ -79,6 +79,5 @@ and should receive an additional 5%.
 ---
 
 ## Stretch Goals
-- Put the output on the DOM (visually on the page).
-- Make the app run only after the user clicks on a button on the page
-- Then style the output, making it visually appealing.
+- Create a diagram, flowchart, or some other visual aid that **documents** the logic you've just implemented.
+  - The more you practice this skill, the more you become an awesome communicator of algorithmic logic. This is a *superpower* that you can develop during your time at Prime, but you'll neet to commit to practicing it.
